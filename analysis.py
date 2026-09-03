@@ -1,1 +1,1 @@
-print("Git course")
+print("Git and GitHub course")
