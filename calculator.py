@@ -2,7 +2,7 @@ import statistics
 
 def mean(values):
     if not values:
-        raise ValueError("Values cannot be empty")
+        raise ValueError("Cannot calculate mean of empty dataset")
     
     return sum(values)/len(values)
 
