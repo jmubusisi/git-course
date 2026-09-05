@@ -8,3 +8,5 @@ A practice respository for learning Git and GitHub
 - Push and pull 
 - Branches
 - Collaboration
+## Statistics
+The project includes basic descriptive statistics functions.
