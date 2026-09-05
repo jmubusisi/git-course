@@ -1,3 +1,5 @@
+import statistics
+
 def mean(values):
     if not values:
         raise ValueError("Values cannot be empty")
@@ -13,3 +15,15 @@ def data_range(values):
     if not values:
         raise ValueError("Values cannot be empty")
     return max(values) - min(values)
+
+# ------------------------------------------#
+#Create Standard Deviation Calculation
+#--------------------------------------------#
+
+def standard_deviation(values):
+    if len(values) < 2:
+        raise ValueError("Atleast two values are required")
+    return statistics.stdev(values)
+
+
+
