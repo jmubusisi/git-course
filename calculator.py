@@ -17,13 +17,23 @@ def data_range(values):
     return max(values) - min(values)
 
 # ------------------------------------------#
-#Create Standard Deviation Calculation
+#Standard Deviation Calculation
 #--------------------------------------------#
 
 def standard_deviation(values):
     if len(values) < 2:
         raise ValueError("Atleast two values are required")
     return statistics.stdev(values)
+
+#------------------------------------------------
+# Variance
+#------------------------------------------------
+
+def variance(values):
+    if len(values) < 2:
+        raise ValueError("At least two values are required")
+    
+    return statistics.variance(values)
 
 
 
